@@ -21,33 +21,33 @@
         <form action="example.com/path" method="post">
             <div id="userInfoBlock">
                 <div class="userInfo">
-                    <label for="first_name">FIRST NAME</label>
-                    <input type="text" id="first_name" name="first_name" placeholder="Jane">
+                    <label for="first_name">FIRST NAME*</label>
+                    <input type="text" id="first_name" name="first_name" placeholder="Jane" required>
                 </div>
 
                 <div class="userInfo">
-                    <label for="last_name">LAST NAME</label>
-                    <input type="text" id="last_name" name="last_name" placeholder="Doe">
+                    <label for="last_name">LAST NAME*</label>
+                    <input type="text" id="last_name" name="last_name" placeholder="Doe" required>
                 </div>
 
                 <div class="userInfo">
-                    <label for="email_address">EMAIL</label>
-                    <input type="email" id="email_address" name="email_address" placeholder="abc@xyz.com">
+                    <label for="email_address">EMAIL*</label>
+                    <input type="email" id="email_address" name="email_address" placeholder="abc@xyz.com" required>
                 </div>
 
                 <div class="userInfo">
-                    <label for="phone_number">PHONE NUMBER</label>
-                    <input type="text" id="phone_number" name="phone_number" placeholder="27123456789">
+                    <label for="phone_number">PHONE NUMBER (optional)</label>
+                    <input type="text" id="phone_number" name="phone_number" placeholder="27831234567" pattern="[2][7][0-9]{9}"> 
                 </div>
 
                 <div class="userInfo">
-                    <label for="user_password">PASSWORD</label>
-                    <input type="password" id="user_password" name="password">
+                    <label for="user_password">PASSWORD*</label>
+                    <input type="password" id="user_password" name="password" minlength="10" maxlength="20" required>
                 </div>
 
                 <div class="userInfo">
-                    <label for="confirm_password">CONFIRM PASSWORD</label>
-                    <input type="password" id="confirm_password" name="confirm_password">
+                    <label for="confirm_password">CONFIRM PASSWORD*</label>
+                    <input type="password" id="confirm_password" name="confirm_password" minlength="10" maxlength="20" required>
                 </div>
             </div>
 

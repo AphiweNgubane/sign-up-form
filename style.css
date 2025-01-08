@@ -47,10 +47,23 @@ form {
 
 label {
     letter-spacing: 3px;
+    font-weight: 500;
 }
 
 input {
     font-size: 30px;
+}
+
+input:focus {
+    border-color: rgb(53, 51, 158);
+}
+
+input:invalid {
+    border-color: red;
+}
+
+input:valid {
+    border-color: green;
 }
 
 button {
@@ -61,6 +74,11 @@ button {
     padding: 15px 70px;
     margin-top: 40px;
     border-radius: 15px;
+}
+
+button:hover {
+    background-color: orangered;
+    cursor: pointer;
 }
 
 p {
