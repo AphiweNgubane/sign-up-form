@@ -1,0 +1,73 @@
+body {
+    display: flex;
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    justify-content: center;
+}
+
+img {
+    width: calc(100%/3);
+}
+
+#description,
+#signUp {
+    font-weight: bold;
+    font-size: 40px;
+    padding-bottom: 10px;
+}
+
+#description {
+    width: 50vw;
+    padding-bottom: 50px;
+}
+
+form {
+    padding-top: 50px;
+    font-size: 20px;
+    
+}
+
+#userInfoBlock {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    width: 1000px;
+}
+
+.userInfo {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    letter-spacing: 3px;
+}
+
+input {
+    font-size: 30px;
+}
+
+button {
+    background-color: rgb(53, 51, 158);
+    color: white;
+    font-size: 25px;
+    font-weight: 550;
+    padding: 15px 70px;
+    margin-top: 40px;
+    border-radius: 15px;
+}
+
+p {
+    font-size: 23px;
+}
+
+a {
+    color: rgb(53, 51, 158);
+    font-weight: 800;
+}
